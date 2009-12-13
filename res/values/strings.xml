@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="about_description">You can quick take a picture with silent mode.</string>
+  <string name="about_description">You can take a picture quickly with silent mode.</string>
   <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: First released version.</string>
+  <string name="about_1_0_1">2009/Dec/14th Ver 1.0.1: Reduce Step.</string>
 
   <string name="saving">Saving..</string>
 

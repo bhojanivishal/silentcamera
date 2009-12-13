@@ -3,22 +3,17 @@ package la.zeg.android.silentcamera.activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.format.Time;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 
 import la.zeg.android.silentcamera.R;
 import la.zeg.android.silentcamera.model.ItemColor;
 import la.zeg.android.silentcamera.view.Preview;
 
-public class PreviewActivity extends ActivityBase 
-implements View.OnClickListener {
+public class PreviewActivity extends ActivityBase{
   ProgressDialog saving = null;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -33,56 +28,26 @@ implements View.OnClickListener {
     setContentView(R.layout.preview);
     
     Preview view = (Preview) findViewById(R.id.preview);
-    view.setOnClickListener(this);
     view.setColorDatas(pickuppedColorData, 
         width,
         height);
     view.setVisibility(View.VISIBLE);
-  }
-
-  @Override
-  public void onClick(View v) {
-      AlertDialog.Builder ad=new AlertDialog.Builder(this);
-        ad.setTitle(R.string.preview_title);
-        ad.setMessage(R.string.preview_message);
-        ad.setPositiveButton(R.string.preview_ok,new DialogInterface.OnClickListener() {
-          public void onClick(DialogInterface dialog,int whichButton) {
-                save();
-          }
-        });
-        ad.setNegativeButton(R.string.preview_ng,new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog,int whichButton) {
-                finish();
-            }
-        });
-        ad.create();
-        ad.show();
-  }
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-     super.onCreateOptionsMenu(menu);
-     MenuInflater inflater = getMenuInflater();
-     inflater.inflate(R.menu.preview, menu);
-     return true;
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
-        case R.id.menu_about:
-          Intent intent = new Intent(this,AboutActivity.class);
-          startActivityForResult(intent,0);
-          return true;
-        case R.id.menu_save:
-          save();
-          return true;
-        case R.id.menu_cancel:
+    AlertDialog.Builder ad=new AlertDialog.Builder(this);
+    ad.setTitle(R.string.preview_title);
+    ad.setMessage(R.string.preview_message);
+    ad.setPositiveButton(R.string.preview_ok,new DialogInterface.OnClickListener() {
+      public void onClick(DialogInterface dialog,int whichButton) {
+            save();
+      }
+    });
+    ad.setNegativeButton(R.string.preview_ng,new DialogInterface.OnClickListener() {
+        public void onClick(DialogInterface dialog,int whichButton) {
             finish();
-            return true;
-    }
-    return false;
+        }
+    });
+    ad.create();
+    ad.show();
   }
-
   private void save(){
 	  saving = new ProgressDialog(findViewById(R.id.preview)
               .getContext());
