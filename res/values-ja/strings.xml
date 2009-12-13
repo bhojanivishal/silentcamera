@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="about_description">カメラのシャッター音なしで、素早く写真がとれます</string>
+  <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: 最初のバージョン。</string>
+
+  <string name="saving">保存中です..</string>
+
+  <string name="error_title">エラーが発生しました</string>
+  <string name="error_message">しばらくして再度お試しください。</string>
+
+  <string name="preview_title">保存/キャンセル</string>
+  <string name="preview_message">保存しますか？</string>
+  <string name="preview_ok">保存</string>
+  <string name="preview_ng">キャンセル</string>
+
+  <string name="menu_about">このアプリについて</string>
+  <string name="menu_take_a_picture">写真を撮る</string>
+  <string name="menu_save">保存</string>
+  <string name="menu_cancel">キャンセル</string>
+</resources>
