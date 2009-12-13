@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="about_description">You can quick take a picture with silent mode.</string>
+  <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: First released version.</string>
+
+  <string name="saving">Saving..</string>
+
+  <string name="error_title">An error occurred</string>
+  <string name="error_message">please try again later.</string>
+	
+  <string name="preview_title">Choose Save or Cancel</string>
+  <string name="preview_message">Save?</string>
+  <string name="preview_ok">Save</string>
+  <string name="preview_ng">Cancel</string>
+
+  <string name="menu_about">About Silent Camera</string>
+  <string name="menu_take_a_picture">Take a Picture</string>
+  <string name="menu_save">Save</string>
+  <string name="menu_cancel">Cancel</string>
+</resources>
