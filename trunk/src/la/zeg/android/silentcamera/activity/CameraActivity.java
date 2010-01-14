@@ -33,7 +33,7 @@ public class CameraActivity extends Activity {
           return true;
         case R.id.menu_take_a_picture:
           CameraView v = (CameraView) findViewById(R.id.camera_view);
-          v.touched = true;
+          v.takePicture();
           return true;
     }
     return false;

@@ -3,6 +3,7 @@
   <string name="about_description">カメラのシャッター音なしで、素早く写真がとれます</string>
   <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: 最初のバージョン。</string>
   <string name="about_1_0_1">2009/Dec/14th Ver 1.0.1: 撮影ステップを減らしました。</string>
+  <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: 安定性を向上させました.</string>
 
   <string name="saving">保存中です..</string>
 
