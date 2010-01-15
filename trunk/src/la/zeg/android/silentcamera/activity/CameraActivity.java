@@ -26,11 +26,17 @@ public class CameraActivity extends Activity {
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
+
+    Intent intent = null;
     switch (item.getItemId()) {
         case R.id.menu_about:
-          Intent intent = new Intent(this,AboutActivity.class);
+          intent = new Intent(this,AboutActivity.class);
           startActivityForResult(intent,0);
           return true;
+        case R.id.menu_preference:
+            intent = new Intent(this,SettingActivity.class);
+            startActivityForResult(intent,0);
+            return true;
         case R.id.menu_take_a_picture:
           CameraView v = (CameraView) findViewById(R.id.camera_view);
           v.takePicture();

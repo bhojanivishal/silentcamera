@@ -32,6 +32,11 @@ public class PreviewActivity extends ActivityBase{
         width,
         height);
     view.setVisibility(View.VISIBLE);
+
+    if(SettingActivity.getSaveImmediately(this)){
+    	save();
+    	return;
+    }
     AlertDialog.Builder ad=new AlertDialog.Builder(this);
     ad.setTitle(R.string.preview_title);
     ad.setMessage(R.string.preview_message);

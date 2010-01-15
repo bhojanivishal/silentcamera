@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="la.zeg.android.silentcamera"
-      android:versionCode="3"
-      android:versionName="1.0.2">
+      android:versionCode="4"
+      android:versionName="1.0.3">
     <application android:icon="@drawable/icon" android:label="@string/config_app_name">
         <activity android:label="@string/config_app_name"        
         android:screenOrientation="landscape"
@@ -22,6 +22,11 @@
         <activity android:label="@string/config_app_name"        
         android:screenOrientation="landscape"
         android:name=".activity.AboutActivity"
+        android:theme="@android:style/Theme.Dialog"
+        ></activity>
+        <activity android:label="@string/config_app_name"        
+        android:screenOrientation="landscape"
+        android:name=".activity.SettingActivity"
         android:theme="@android:style/Theme.Dialog"
         ></activity>
     </application>

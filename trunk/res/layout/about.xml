@@ -30,6 +30,11 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:text="@string/about_1_0_2" />
+         
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/about_1_0_3" />
     </LinearLayout>
   </LinearLayout>
 </ScrollView>

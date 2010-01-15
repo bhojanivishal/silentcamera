@@ -4,6 +4,7 @@
   <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: First released version.</string>
   <string name="about_1_0_1">2009/Dec/14th Ver 1.0.1: Reduce Step.</string>
   <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: Bug Fix.</string>
+  <string name="about_1_0_3">2010/Jan/15th Ver 1.0.3: Add Preferences.</string>
 
   <string name="saving">Saving..</string>
 
@@ -19,4 +20,9 @@
   <string name="menu_take_a_picture">Take a Picture</string>
   <string name="menu_save">Save</string>
   <string name="menu_cancel">Cancel</string>
+  <string name="menu_preference">Preferences</string>
+
+  <string name="pref_title">Preference</string>
+  <string name="pref_save_immediately_title">Save immediately</string>
+  <string name="pref_save_immediately_summary">Tap and save immediately</string>
 </resources>
