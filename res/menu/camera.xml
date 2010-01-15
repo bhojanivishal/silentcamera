@@ -3,6 +3,9 @@
   <item android:title="@string/menu_take_a_picture" 
         android:id="@+id/menu_take_a_picture" 
         android:icon="@android:drawable/ic_menu_camera"></item>
+  <item android:title="@string/menu_preference" 
+        android:id="@+id/menu_preference" 
+        android:icon="@android:drawable/ic_menu_preferences"></item>
   <item android:title="@string/menu_about" 
         android:id="@+id/menu_about" 
         android:icon="@android:drawable/ic_menu_info_details"></item>
