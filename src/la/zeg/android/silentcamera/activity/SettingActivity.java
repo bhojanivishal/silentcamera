@@ -12,8 +12,11 @@ public class SettingActivity extends PreferenceActivity {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.pref);
     }
-	
+
 	public static boolean getSaveImmediately(Context context){
 		return PreferenceManager.getDefaultSharedPreferences(context).getBoolean("pref_save_immediately_key",false);	
+	}
+	public static boolean getDummyMonitor(Context context){
+		return PreferenceManager.getDefaultSharedPreferences(context).getBoolean("pref_dummy_monitor_key",false);	
 	}
 }

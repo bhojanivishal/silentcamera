@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
  <string name="config_default_language">en</string>
-  <string name="config_app_name">Silent Camera</string>
+  
+<string name="config_dummy_camera_url">http://news.google.com/</string>
 </resources>

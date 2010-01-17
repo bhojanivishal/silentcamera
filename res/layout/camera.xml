@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/camera_layout"
   android:layout_width="wrap_content"
   android:layout_height="wrap_content">
   <la.zeg.android.silentcamera.view.CameraView
@@ -8,4 +9,16 @@
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent">
   </la.zeg.android.silentcamera.view.CameraView>
-</LinearLayout>
+  <RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	>
+	<WebView 
+	    android:visibility="gone"
+        android:id="@+id/dummy_camera_view"
+        android:layout_alignParentTop="true"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		</WebView>
+  </RelativeLayout>
+</FrameLayout>
