@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="app_name">Silent Camera</string>
   <string name="about_description">You can take a picture quickly with silent mode.</string>
   <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: First released version.</string>
   <string name="about_1_0_1">2009/Dec/14th Ver 1.0.1: Reduce Step.</string>
-  <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: Bug Fix.</string>
-  <string name="about_1_0_3">2010/Jan/15th Ver 1.0.3: Add Preferences.</string>
+  <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: Bug fix.</string>
+  <string name="about_1_0_3">2010/Jan/15th Ver 1.0.3: Add preferences.</string>
+  <string name="about_1_0_4">2010/Jan/17th Ver 1.0.4: Add dummy monitor.</string>
 
   <string name="saving">Saving..</string>
+  <string name="loading">Loading..</string>
 
   <string name="error_title">An error occurred</string>
   <string name="error_message">please try again later.</string>
@@ -25,4 +28,6 @@
   <string name="pref_title">Preference</string>
   <string name="pref_save_immediately_title">Save immediately</string>
   <string name="pref_save_immediately_summary">Tap and save immediately</string>
+  <string name="pref_dummy_monitor_title">Dummy Monitor</string>
+  <string name="pref_dummy_monitor_summary">Display dummy google news</string>
 </resources>

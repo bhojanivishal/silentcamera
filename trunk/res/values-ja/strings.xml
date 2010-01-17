@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="app_name">無音カメラ</string>
   <string name="about_description">カメラのシャッター音なしで、素早く写真がとれます</string>
   <string name="about_1_0_0">2009/Dec/13th Ver 1.0.0: 最初のバージョン。</string>
   <string name="about_1_0_1">2009/Dec/14th Ver 1.0.1: 撮影ステップを減らしました。</string>
   <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: 安定性を向上させました.</string>
   <string name="about_1_0_3">2010/Jan/15th Ver 1.0.3: 設定を追加しました</string>
+  <string name="about_1_0_4">2010/Jan/17th Ver 1.0.4: ダミーモニターを追加しました</string>
   
   <string name="saving">保存中です..</string>
+  <string name="loading">読み込み中です..</string>
 
   <string name="error_title">エラーが発生しました</string>
   <string name="error_message">しばらくして再度お試しください。</string>
@@ -25,4 +28,6 @@
   <string name="pref_title">設定</string>
   <string name="pref_save_immediately_title">直ちに保存する</string>
   <string name="pref_save_immediately_summary">タップした際、確認ダイアログなしに直ちに保存します</string>
+  <string name="pref_dummy_monitor_title">ダミーモニター</string>
+  <string name="pref_dummy_monitor_summary">ダミーでモニタの代わりにGoogleニュースを表示します</string>
 </resources>

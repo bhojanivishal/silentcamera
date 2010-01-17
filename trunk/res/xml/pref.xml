@@ -6,5 +6,9 @@
 			android:key="pref_save_immediately_key"
 			android:title="@string/pref_save_immediately_title"
 			android:summary="@string/pref_save_immediately_summary" />
+	    <CheckBoxPreference
+			android:key="pref_dummy_monitor_key"
+			android:title="@string/pref_dummy_monitor_title"
+			android:summary="@string/pref_dummy_monitor_summary" />
 	</PreferenceCategory>
 </PreferenceScreen>

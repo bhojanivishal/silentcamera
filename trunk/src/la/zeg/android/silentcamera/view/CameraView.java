@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import la.zeg.android.silentcamera.activity.CameraActivity;
 import la.zeg.android.silentcamera.activity.PreviewActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Camera;
@@ -62,7 +61,7 @@ public class CameraView extends SurfaceView implements Callback {
       }
 
     private void initSurface(){
-        holder.addCallback(this);
+      holder.addCallback(this);
       holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
     }
 
