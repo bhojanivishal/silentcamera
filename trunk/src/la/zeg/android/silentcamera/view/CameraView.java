@@ -47,7 +47,7 @@ public class CameraView extends SurfaceView implements Callback {
         Intent intent = new Intent(getContext(), PreviewActivity.class);
         intent.putExtra("width",parameter.getPreviewSize().width);
         intent.putExtra("height",parameter.getPreviewSize().height);
-        intent.putExtra("rawData",rawData);
+        CameraActivity.rawData = rawData;
 
         ((CameraActivity)getContext()).startActivityForResult(intent, 0);
         camera.stopPreview();

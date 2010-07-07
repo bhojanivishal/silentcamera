@@ -7,6 +7,7 @@
   <string name="about_1_0_2">2010/Jan/13th Ver 1.0.2: 安定性を向上させました.</string>
   <string name="about_1_0_3">2010/Jan/15th Ver 1.0.3: 設定を追加しました</string>
   <string name="about_1_0_4">2010/Jan/17th Ver 1.0.4: ダミーモニターを追加しました</string>
+  <string name="about_1_0_5">2010/Jul/7th Ver 1.0.5: Xperiaでのバグを修正しました</string>
   
   <string name="saving">保存中です..</string>
   <string name="loading">読み込み中です..</string>
