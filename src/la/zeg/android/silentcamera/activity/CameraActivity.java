@@ -13,6 +13,7 @@ import la.zeg.android.silentcamera.helper.DummyCameraClient;
 import la.zeg.android.silentcamera.view.CameraView;
 
 public class CameraActivity extends Activity {
+  public static byte rawData[];
   @Override
   protected void onCreate(Bundle savedInstanceState) {
    super.onCreate(savedInstanceState);

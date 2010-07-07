@@ -21,9 +21,8 @@ public class PreviewActivity extends ActivityBase{
     Bundle extras = getIntent().getExtras(); 
     final int width = extras.getInt("width");
     final int height = extras.getInt("height");
-    final byte []  rawData = extras.getByteArray("rawData");
-    int [] pickuppedColorData = new int[rawData.length];
-    ItemColor.decodeYUV(rawData, pickuppedColorData,width, height);
+    int [] pickuppedColorData = new int[CameraActivity.rawData.length];
+    ItemColor.decodeYUV(CameraActivity.rawData, pickuppedColorData,width, height);
 
     setContentView(R.layout.preview);
     
