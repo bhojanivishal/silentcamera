@@ -1,0 +1,1 @@
+ou can quick take a picture with silent mode.
